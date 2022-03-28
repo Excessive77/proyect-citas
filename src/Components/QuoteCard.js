@@ -8,7 +8,7 @@ export const QuoteCard = ({quote, author, handlerClick}) => {
         <br/>
         <button onClick={handlerClick}>New quote</button>
         <a class="twitter-share-button"
-        href="https://twitter.com/intent/tweet" data-size='large' target='_blank' rel='noopener'>Tweet</a>
+        href="https://twitter.com/intent/tweet" data-size='large' target='_blank' rel='noreferrer'>Tweet</a>
     </div>
   )
 }
